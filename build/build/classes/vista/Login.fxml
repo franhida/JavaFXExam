@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ControlFX">
+   <children>
+      <SplitPane dividerPositions="0.6" prefHeight="600.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="394.0" fitWidth="317.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/images/freesolo.png" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="598.0" prefWidth="595.0" style="-fx-background-color: #b58d7e9c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label layoutX="127.0" layoutY="370.0" prefHeight="119.0" prefWidth="287.0" text="Create Your Own Account" textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font name="Microsoft JhengHei UI Light" size="33.0" />
+                           </font>
+                        </Label>
+                        <JFXButton layoutX="137.0" layoutY="502.0" prefHeight="41.0" prefWidth="123.0" style="-fx-background-color: #fff; -fx-background-radius: 10px;" text="ABOUT US" textFill="#ff4081" />
+                        <JFXButton layoutX="291.0" layoutY="502.0" prefHeight="41.0" prefWidth="123.0" style="-fx-border-color: #fff; -fx-border-radius: 10px; -fx-border-width: 1px;" text="SIGNIN" textFill="WHITE" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Pane prefHeight="598.0" prefWidth="395.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <JFXTextField focusColor="#ff4081" labelFloat="true" layoutX="68.0" layoutY="180.0" maxWidth="259.0" minWidth="210.0" prefHeight="31.0" prefWidth="259.0" promptText="FIRST NAME" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#bdbdbd" />
+                        <JFXTextField focusColor="#ff4081" labelFloat="true" layoutX="68.0" layoutY="240.0" maxWidth="259.0" minWidth="210.0" prefHeight="31.0" prefWidth="259.0" promptText="LAST NAME" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#bdbdbd" />
+                        <JFXTextField focusColor="#ff4081" labelFloat="true" layoutX="68.0" layoutY="300.0" maxWidth="259.0" minWidth="210.0" prefHeight="31.0" prefWidth="259.0" promptText="E-MAIL" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#bdbdbd" />
+                        <JFXPasswordField focusColor="#ff4081" labelFloat="true" layoutX="68.0" layoutY="360.0" maxWidth="259.0" minWidth="259.0" prefHeight="31.0" prefWidth="259.0" promptText="PASSWORD" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#bdbdbd" />
+                        <JFXPasswordField focusColor="#ff4081" labelFloat="true" layoutX="68.0" layoutY="420.0" maxWidth="259.0" minWidth="259.0" prefHeight="31.0" prefWidth="259.0" promptText="REPEAT PASSWORD" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#bdbdbd" />
+                        <JFXToggleButton layoutX="21.0" layoutY="484.0" text="UNDER 18 ?" textFill="#6b6b6b" toggleColor="#ff4081">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </JFXToggleButton>
+                        <JFXButton fx:id="btnGetStarted" layoutX="174.0" layoutY="492.0" onAction="#loadNewScene" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #ff4081; -fx-border-radius: 10px;" text="GET STARTED" textFill="#ff4081" />
+                        <Circle fill="WHITE" layoutX="198.0" layoutY="105.0" radius="59.0" stroke="WHITE" strokeType="INSIDE" />
+                        <Text fill="#ff4081" layoutX="181.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
