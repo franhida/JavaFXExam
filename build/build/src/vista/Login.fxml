@@ -25,7 +25,7 @@
                         <Image url="@assets/images/freesolo.png" />
                      </image>
                   </ImageView>
-                  <Pane prefHeight="598.0" prefWidth="595.0" style="-fx-background-color: #b58d7e9c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Pane id="picPane" fx:id="picPane" prefHeight="598.0" prefWidth="595.0" stylesheets="@assets/styles/styles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <Label layoutX="127.0" layoutY="370.0" prefHeight="119.0" prefWidth="287.0" text="Create Your Own Account" textFill="WHITE" wrapText="true">
                            <font>

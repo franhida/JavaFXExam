@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="JavaFXPabloHidalgoMartinez.jar" size="267382" download="eager" />
+    <jar href="JavaFXPabloHidalgoMartinez.jar" size="267357" download="eager" />
     <jar href="libs\jfoenix-1.4.0.jar" size="2363143" download="eager" />
   </resources>
   <jfx:javafx-desc  width="0" height="0" main-class=""  name="JavaFXPabloHidalgoMartinez" />
