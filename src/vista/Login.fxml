@@ -25,7 +25,7 @@
                         <Image url="@assets/images/freesolo.png" />
                      </image>
                   </ImageView>
-                  <Pane prefHeight="598.0" prefWidth="595.0" style="-fx-background-color: #795548aa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Pane prefHeight="598.0" prefWidth="595.0" style="-fx-background-color: #b58d7e9c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <Label layoutX="127.0" layoutY="370.0" prefHeight="119.0" prefWidth="287.0" text="Create Your Own Account" textFill="WHITE" wrapText="true">
                            <font>
@@ -52,7 +52,7 @@
                               <Font size="13.0" />
                            </font>
                         </JFXToggleButton>
-                        <JFXButton buttonType="RAISED" layoutX="174.0" layoutY="492.0" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #ff4081; -fx-border-radius: 10px;" text="GET STARTED" textFill="#ff4081" />
+                        <JFXButton fx:id="btnGetStarted" layoutX="174.0" layoutY="492.0" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #ff4081; -fx-border-radius: 10px;" text="GET STARTED" textFill="#ff4081" />
                         <Circle fill="WHITE" layoutX="198.0" layoutY="105.0" radius="59.0" stroke="WHITE" strokeType="INSIDE" />
                         <Text fill="#ff4081" layoutX="181.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M">
                            <font>
