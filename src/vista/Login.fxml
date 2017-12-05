@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ControlFX">
    <children>
       <SplitPane dividerPositions="0.6" prefHeight="600.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -46,13 +46,13 @@
                         <JFXTextField focusColor="#ff4081" labelFloat="true" layoutX="68.0" layoutY="240.0" maxWidth="259.0" minWidth="210.0" prefHeight="31.0" prefWidth="259.0" promptText="LAST NAME" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#bdbdbd" />
                         <JFXTextField focusColor="#ff4081" labelFloat="true" layoutX="68.0" layoutY="300.0" maxWidth="259.0" minWidth="210.0" prefHeight="31.0" prefWidth="259.0" promptText="E-MAIL" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#bdbdbd" />
                         <JFXPasswordField focusColor="#ff4081" labelFloat="true" layoutX="68.0" layoutY="360.0" maxWidth="259.0" minWidth="259.0" prefHeight="31.0" prefWidth="259.0" promptText="PASSWORD" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#bdbdbd" />
-                        <JFXPasswordField focusColor="#006600" labelFloat="true" layoutX="68.0" layoutY="420.0" maxWidth="259.0" minWidth="259.0" prefHeight="31.0" prefWidth="259.0" promptText="REPEAT PASSWORD" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#ff4081" />
+                        <JFXPasswordField focusColor="#ff4081" labelFloat="true" layoutX="68.0" layoutY="420.0" maxWidth="259.0" minWidth="259.0" prefHeight="31.0" prefWidth="259.0" promptText="REPEAT PASSWORD" style="-fx-prompt-text-fill: #bdbdbd;" unFocusColor="#bdbdbd" />
                         <JFXToggleButton layoutX="21.0" layoutY="484.0" text="UNDER 18 ?" textFill="#6b6b6b" toggleColor="#ff4081">
                            <font>
                               <Font size="13.0" />
                            </font>
                         </JFXToggleButton>
-                        <JFXButton fx:id="btnGetStarted" layoutX="174.0" layoutY="492.0" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #ff4081; -fx-border-radius: 10px;" text="GET STARTED" textFill="#ff4081" />
+                        <JFXButton fx:id="btnGetStarted" layoutX="174.0" layoutY="492.0" onAction="#loadNewScene" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #ff4081; -fx-border-radius: 10px;" text="GET STARTED" textFill="#ff4081" />
                         <Circle fill="WHITE" layoutX="198.0" layoutY="105.0" radius="59.0" stroke="WHITE" strokeType="INSIDE" />
                         <Text fill="#ff4081" layoutX="181.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M">
                            <font>

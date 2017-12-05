@@ -1,26 +1,34 @@
 package control;
 
-import javafx.application.Application;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-public class ControlFX extends Application{
+/**
+ * 
+ * @author pabli
+ * @see MainFX
+ * 
+ *
+ */
+public class ControlFX {
 	private Stage stage;
 
-	@Override
-	public void start(Stage primaryStage) throws Exception {
-		this.stage = primaryStage;
-	}
+	@FXML
 	public void loadNewScene() {
 		try {
-		AnchorPane root = (AnchorPane) FXMLLoader.load(getClass().getResource("../vista/FreeSolo.fxml"));
-		Scene scene = new Scene(root);
-		scene.getStylesheets().add(getClass().getResource("../vista/assets/styles/styles.css").toExternalForm());
-		stage.setScene(scene);
-		stage.show();
+			AnchorPane root = (AnchorPane) FXMLLoader.load(getClass().getResource("../vista/FreeSolo.fxml"));
+			Scene scene = new Scene(root);
+			stage.setScene(scene);
+			stage.show();
 		} catch (Exception e) {
+		}
 	}
+
+	@FXML
+	public void closeFreeSolo() {
+		stage.close();
 	}
 }

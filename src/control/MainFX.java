@@ -6,6 +6,14 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+/**
+ * 
+ * @author pabli
+ * @version 1.0.0
+ * Exam App
+ * @see ControlFX
+ *
+ */
 public class MainFX extends Application {
 	private Stage stage;
 

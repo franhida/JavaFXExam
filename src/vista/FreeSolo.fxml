@@ -12,7 +12,7 @@
    <children>
       <Pane prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #b58d7e9c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <JFXButton layoutX="356.0" layoutY="328.0" prefHeight="38.0" prefWidth="101.0" style="-fx-border-radius: 10px; -fx-border-color: #ff4081;" text="Back" textFill="#ff4081" />
+            <JFXButton fx:id="btnBack" layoutX="356.0" layoutY="328.0" onAction="#closeFreeSolo" prefHeight="38.0" prefWidth="101.0" style="-fx-border-radius: 10px; -fx-border-color: #ff4081;" text="Back" textFill="#ff4081" />
             <ImageView fitHeight="136.0" fitWidth="266.0" layoutX="117.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/JavaFX_Logo.png" />
